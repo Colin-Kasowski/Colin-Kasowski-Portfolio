@@ -3,6 +3,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg: 255 255 255;
+  --fg: 17 17 17;
+  --muted: 110 110 110;
+  --surface: 245 245 245;
+  --border: 220 220 220;
+  --brand: 0 160 255;
+  --radius: 18px;
+}
+
+.dark {
+  --bg: 10 10 10;
+  --fg: 245 245 245;
+  --muted: 160 160 160;
+  --surface: 18 18 18;
+  --border: 45 45 45;
+  --brand: 80 200 255;
 }
 
 @theme inline {
